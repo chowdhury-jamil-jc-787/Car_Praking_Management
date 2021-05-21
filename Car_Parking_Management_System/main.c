@@ -4,6 +4,7 @@
 
 
 static float am=0;
+static float am1=0,am2=0,am3=0,am4=0;
 
 //truck
 int li[100];
@@ -132,7 +133,7 @@ int type()
                 break;
 
             default:
-                printf("Worng Type Number");
+                printf("Wrong Type Number");
                 break;
         }
 
@@ -332,7 +333,7 @@ int type()
 
 
 
-//For all type of vechicles
+//For all type of vehicles
      int check()
      {
          int ve;
@@ -417,6 +418,7 @@ int type()
                              float k=t4*.83;
                              printf("amount: %.2f \n",k);
                              am=am+k;
+                             am1=k;
                              count--;
                              break;
                          }
@@ -491,6 +493,7 @@ int type()
                              float k1=t41*0.5;
                              printf("amount: %.2f \n",k1);
                              am=am+k1;
+                             am2=k1;
                              count1--;
                              break;
                          }
@@ -563,6 +566,7 @@ int type()
                              float k2=t42*0.42;
                              printf("amount: %.2f \n",k2);
                              am=am+k2;
+                             am3=k2;
                              count2--;
                              break;
                          }
@@ -637,6 +641,7 @@ int type()
                              float k3=t43*0.33;
                              printf("amount: %.2f \n",k3);
                              am=am+k3;
+                             am4=k3;
                              count3--;
                              break;
                          }
@@ -666,7 +671,7 @@ int type()
 
 
 
-//All vehiclle list
+//All vehicle list
 
 int list()
 {
@@ -995,8 +1000,16 @@ fclose(fptr);
 
 int amount()
 {
-printf("Total Income: %.2f",am);
-printf("\n\n\n");
+
+  printf("\n\n********************************Total Income**********************************\n\n\n\n");
+    printf("Total income from truck: %.2f/= \n",am1);
+    printf("Total income from Car  : %.2f/= \n",am2);
+    printf("Total income from Cng  : %.2f/= \n",am3);
+    printf("Total income from Bike : %.2f/= \n",am4);
+    printf("-------------------------------- \n");
+    printf("       Total amount    : %.2f/= \n\n",am);
+
+
 printf("Press any key to back.......");
         getch();
         system("cls");
