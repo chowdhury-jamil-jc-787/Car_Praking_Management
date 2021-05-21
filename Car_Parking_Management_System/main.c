@@ -398,14 +398,16 @@ int type()
                              t5=t3;
                              t6=t4;
 
+                             printf("Exit time: \n");
                              printf("hour:%d \n",t5);
                              printf("minute:%d \n",t6);
 
                              t3=t3-t1;
                              t4=t4-t2;
 
-                             printf("%d \n",t3);
-                             printf("%d \n",t4);
+                             printf("Total stay time: \n");
+                             printf("Hour: %d \n",t3);
+                             printf("Minute: %d \n",t4);
 
                              int h1;
                              if(t3!=0)
@@ -473,14 +475,16 @@ int type()
                              t51=t31;
                              t61=t41;
 
+                             printf("Exit time: \n");
                              printf("hour:%d \n",t51);
                              printf("minute:%d \n",t61);
 
                              t31=t31-t11;
                              t41=t41-t21;
 
-                             printf("%d \n",t31);
-                             printf("%d \n",t41);
+                             printf("Total stay time: \n");
+                             printf("Hour: %d \n",t31);
+                             printf("Minute: %d \n",t41);
 
                              int h1;
                              if(t31!=0)
@@ -546,14 +550,16 @@ int type()
                              t52=t32;
                              t62=t42;
 
+                             printf("Exit time: \n");
                              printf("hour:%d \n",t52);
                              printf("minute:%d \n",t62);
 
                              t32=t32-t12;
                              t42=t42-t22;
 
-                             printf("%d \n",t32);
-                             printf("%d \n",t42);
+                             printf("Total stay time: \n");
+                             printf("Hour: %d \n",t32);
+                             printf("Minute: %d \n",t42);
 
                              int h1;
                              if(t32!=0)
@@ -621,14 +627,16 @@ int type()
                              t53=t33;
                              t63=t43;
 
+                             printf("Exit time: \n");
                              printf("hour:%d \n",t53);
                              printf("minute:%d \n",t63);
 
                              t33=t33-t13;
                              t43=t43-t23;
 
-                             printf("%d \n",t33);
-                             printf("%d \n",t43);
+                             printf("Total stay time: \n");
+                             printf("Hour: %d \n",t33);
+                             printf("Minute: %d \n",t43);
 
                              int h1;
                              if(t33!=0)
